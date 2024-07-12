@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex Layout</title>
+    <style>
+      .container {
+        border: 2px solid red;
+        display: flex;
+        max-width: 100%;
+        height: 100vh;
+      }
+      .div-one {
+        background-color: darkseagreen;
+        height: 100%;
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        font-size: 32px;
+      }
+      .div-two {
+        background-color: antiquewhite;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        font-size: 32px;
+        height: 100%;
+        width: 60%;
+      }
+      @media screen and (max-width: 576px) {
+        .container {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-content: center;
+          max-height: 100%;
+        }
+        .div-one {
+          height: 40%;
+          width: 100%;
+        }
+        .div-two {
+          height: 60%;
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section class="container">
+      <div class="div-one">Div One left</div>
+      <div class="div-two">Div Two right</div>
+    </section>
+  </body>
+</html>
