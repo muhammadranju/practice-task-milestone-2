@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        max-width: 1400px;
+        padding: 10px;
+        margin: 0 auto;
+      }
+      .content-one {
+        width: 1200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+      }
+      .content-one img {
+        width: 50%;
+        margin-left: 15px;
+        margin-right: 15px;
+      }
+      .content-two {
+        width: 1200px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+      }
+      .content-two img {
+        width: 50%;
+        margin-left: 15px;
+        margin-right: 15px;
+      }
+
+      @media screen and (max-width: 576px) {
+        .container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section class="container">
+      <div class="content-one">
+        <img src="./images/svetik.jpg" alt="" />
+        <div>
+          <h1>This is paragraph heading Lorem ipsum dolor sit amet.</h1>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita
+            porro placeat possimus velit quod necessitatibus adipisci ab error.
+            Laudantium maxime, quia voluptatem a quis quaerat, molestias
+            asperiores consequatur nihil optio ipsa libero nemo quod quo numquam
+            quasi iure, impedit necessitatibus?
+          </p>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor
+            omnis numquam vero, ipsa facilis necessitatibus nesciunt ex aperiam
+            qui vel recusandae reiciendis, ducimus quis culpa quisquam dicta
+            reprehenderit sit sint dolorum doloribus corporis explicabo beatae.
+            Tempore at alias, atque cum non libero ad unde delectus doloremque
+            voluptas sunt nobis possimus!
+          </p>
+        </div>
+      </div>
+      <div class="content-two">
+        <div>
+          <h1>This is paragraph heading Lorem ipsum dolor sit amet.</h1>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita
+            porro placeat possimus velit quod necessitatibus adipisci ab error.
+            Laudantium maxime, quia voluptatem a quis quaerat, molestias
+            asperiores consequatur nihil optio ipsa libero nemo quod quo numquam
+            quasi iure, impedit necessitatibus?
+          </p>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor
+            omnis numquam vero, ipsa facilis necessitatibus nesciunt ex aperiam
+            qui vel recusandae reiciendis, ducimus quis culpa quisquam dicta
+            reprehenderit sit sint dolorum doloribus corporis explicabo beatae.
+            Tempore at alias, atque cum non libero ad unde delectus doloremque
+            voluptas sunt nobis possimus!
+          </p>
+        </div>
+        <img src="./images/svetik.jpg" alt="" />
+      </div>
+    </section>
+  </body>
+</html>
