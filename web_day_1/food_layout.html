@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      /* padding: 1rem; */
+      margin: 0 auto;
+    }
+    .items {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+    .items img {
+      width: 30rem;
+    }
+    .items h1 {
+      font-size: 1.8rem;
+      margin-top: 2rem;
+    }
+    .items p {
+      font-size: 1.3rem;
+      width: 30rem;
+      margin-top: 2rem;
+    }
+    .items button {
+      padding: 0.6rem;
+      background-color: rgb(0, 162, 255);
+      color: #ffffff;
+      border: none;
+      border-radius: 0.3rem;
+      margin-top: 2rem;
+      cursor: pointer;
+    }
+    @media screen and (max-width: 576px) {
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* flex-direction: column; */
+      }
+      .items {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* background-color: rgb(218, 218, 218); */
+        padding: 10px;
+        border-radius: 10px;
+        width: 100%;
+        margin: 0 auto;
+      }
+
+      .items img {
+        width: 100%;
+      }
+      .items h1 {
+        font-size: 1.8rem;
+        margin-top: 1rem;
+      }
+      .items p {
+        width: 20rem;
+        margin-top: 1rem;
+      }
+    }
+    /* @media screen and (min-width: 576px) and (max-width: 992px) {
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      .items {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      .items {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+      }
+      .items img {
+        width: 100%;
+        height: 100%;
+      }
+      .items p {
+        font-size: 1.3rem;
+        width: 70rem;
+      }
+    } */
+  </style>
+  <body>
+    <section class="container">
+      <div class="items">
+        <img src="./images/Fish.jpg" alt="" />
+        <div>
+          <h1>This food are so good</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas veniam
+            distinctio consequuntur dolorum vero inventore repudiandae, aperiam
+            aliquid labore id.
+          </p>
+          <button>Read More</button>
+        </div>
+      </div>
+      <div class="items">
+        <img src="./images/svetik.jpg" alt="" />
+        <div>
+          <h1>This food are so good</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas veniam
+            distinctio consequuntur dolorum vero inventore repudiandae, aperiam
+            aliquid labore id.
+          </p>
+          <button>Read More</button>
+        </div>
+      </div>
+      <div class="items">
+        <img src="./images/food.jpg" alt="" />
+        <div>
+          <h1>This food are so good</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas veniam
+            distinctio consequuntur dolorum vero inventore repudiandae, aperiam
+            aliquid labore id.
+          </p>
+          <button>Read More</button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
