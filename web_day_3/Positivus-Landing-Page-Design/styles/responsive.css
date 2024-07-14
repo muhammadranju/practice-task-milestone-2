@@ -1,0 +1,221 @@
+@media screen and (max-width: 576px) {
+  /* header */
+  body {
+    padding: 0 6vw;
+  }
+  /* start shared style */
+  .btn {
+    padding: 4vw 4vw 4vw 4vw;
+    background-color: rgb(25, 26, 35);
+    color: #ffffff;
+    font-size: 5vw;
+    border: none;
+    border-radius: 3vw;
+    width: 100%;
+  }
+
+  /* start header style */
+  header {
+    margin-top: 3vw;
+  }
+
+  nav img {
+    width: 34vw;
+  }
+
+  nav ul {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
+  /* end header style */
+
+  /* start hero section style*/
+  .hero-section {
+    flex-direction: column-reverse;
+  }
+  .hero-text-section {
+    width: 100%;
+  }
+
+  .hero-text-section h1 {
+    font-size: 10vw;
+    width: 100%;
+    margin-bottom: 7vw;
+  }
+  .hero-text-section p {
+    font-size: 4.5vw;
+    line-height: 6vw;
+    width: 100%;
+    margin-bottom: 7vw;
+  }
+
+  .hero-image-section {
+    width: 100%;
+  }
+  .hero-image-section img {
+    width: 100%;
+    margin: 5vw 0;
+  }
+  /* end hero section style*/
+
+  /* start services-section style */
+  .services-section {
+    margin-top: 12vw;
+    width: 100%;
+  }
+
+  .logotype {
+    display: none;
+  }
+
+  .service-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .service-content h1 {
+    font-size: 7vw;
+    background-color: rgb(185, 255, 102);
+  }
+  .service-content p {
+    font-size: 3.5vw;
+    width: 100%;
+    margin: 4vw 0;
+  }
+
+  .service-card-items {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 3vw;
+  }
+
+  .service-card {
+    width: 100%;
+    padding: 6vw;
+  }
+  .service-card h1 {
+    margin-bottom: 10vw;
+    padding: 0.3vw 1vw;
+    font-size: 5vw;
+  }
+  .learn-more {
+    margin-right: 5vw;
+    gap: 1vw;
+    font-size: 4vw;
+    font-weight: bold;
+  }
+  .learn-more img {
+    width: 6vw;
+  }
+  .service-card-color {
+    width: 100%;
+    padding: 6vw;
+  }
+  .service-card-color h1 {
+    margin-bottom: 10vw;
+    padding: 0.3vw vw;
+    font-size: 5vw;
+  }
+  /* end services-section style */
+
+  /* start advertise-section style */
+
+  .advertise-section {
+    flex-direction: column;
+    padding: 9vw;
+    border-radius: 10vw;
+    margin-top: 12vw;
+  }
+
+  .advertise-content-section h1 {
+    margin-top: 3vw;
+    width: 100%;
+    font-size: 7vw;
+  }
+  .advertise-content-section p {
+    width: 100%;
+    font-size: 4vw;
+    margin: 5vw 0;
+  }
+  .advertise-image-section {
+    display: none;
+  }
+  /* end advertise-section style */
+
+  /* start case-studies-section style */
+  .case-studies-section {
+    flex-direction: column;
+    margin-top: 10vw;
+  }
+  .case-studies-content {
+    padding: 5vw 8vw;
+    height: 38vw;
+    margin-bottom: 5vw;
+  }
+
+  .case-studies-content h1 {
+    font-size: 3vw;
+    width: 100%;
+    margin-bottom: 5vw;
+  }
+  /* end case-studies-section style */
+
+  /* start footer-content style */
+  .footer-content-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 2vw;
+  }
+
+  .footer-text-section h3 {
+    display: inline-block;
+    text-align: center;
+    border-radius: 1vw;
+    text-align: center;
+    margin-bottom: 4vw;
+  }
+
+  .footer-text-section p {
+    margin-bottom: 4vw;
+  }
+  .footer-form-section {
+    display: inline-block;
+    width: 100%;
+    padding: 5vw;
+    margin-bottom: 2vw;
+  }
+  .footer-form-section input {
+    padding: 5vw;
+    border-radius: 3vw;
+    width: 100%;
+    border: none;
+    background-color: rgb(25, 26, 35);
+    font-size: 4vw;
+    display: block;
+    margin-bottom: 3vw;
+  }
+
+  .footer-form-section button {
+    padding: 4vw;
+    border-radius: 3vw;
+    width: 100%;
+    font-size: 5vw;
+  }
+
+  .footer-bottom-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+    color: #ffffff;
+
+    margin-top: 4vw;
+  }
+  /* end footer-content style */
+}

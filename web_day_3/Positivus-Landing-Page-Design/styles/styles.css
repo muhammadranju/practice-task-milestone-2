@@ -1,0 +1,345 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: 1px;
+}
+.hide {
+  display: none;
+}
+.space-grotesk {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* start shared style */
+.btn {
+  padding: 1.3vw 2vw 1.3vw 2vw;
+  background-color: rgb(25, 26, 35);
+  color: #ffffff;
+  font-size: 1.3vw;
+  border: none;
+  border-radius: 0.7vw;
+}
+/* end shared style */
+
+/* start header style */
+body {
+  padding: 0 4vw;
+}
+header {
+  margin-top: 2vw;
+  /* padding: 0 4vw; */
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img {
+  width: 16vw;
+}
+nav ul {
+  display: flex;
+  gap: 3vw;
+  align-items: center;
+  text-align: center;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav li a {
+  text-decoration: none;
+  font-size: 1.5vw;
+  color: #000;
+  font-weight: 400;
+}
+nav li button {
+  padding: 1vw 1.5vw 1vw 1.5vw;
+  border: 1px solid black;
+  border-radius: 0.8vw;
+  font-size: 1.6vw;
+  /* margin-right: 2vw; */
+  font-weight: 400;
+  background-color: #fff;
+}
+.menu-icon {
+  width: 6vw;
+  display: none;
+  margin-right: 2vw;
+}
+/* end header style */
+
+/* start hero-section style */
+
+.hero-section {
+  display: flex;
+  margin-top: 5vw;
+  width: 100%;
+  gap: 4vw;
+}
+
+.hero-text-section {
+  width: 50%;
+}
+.hero-text-section h1 {
+  font-size: 3vw;
+  margin-bottom: 3vw;
+}
+.hero-text-section p {
+  font-size: 1.5vw;
+  width: 80%;
+  margin-bottom: 3vw;
+}
+
+.hero-image-section {
+  width: 50%;
+}
+.hero-image-section img {
+  width: 100%;
+}
+/* end hero-section style */
+
+/* start services-section style */
+
+.services-section {
+  margin-top: 1vw;
+  width: 100%;
+}
+.logotype {
+  margin: 2vw;
+  width: 100%;
+}
+
+.service-content {
+  display: flex;
+  margin: 4vw 0;
+  gap: 3vw;
+}
+.service-content h1 {
+  font-size: 3vw;
+  background-color: rgb(185, 255, 102);
+  padding: 0 1vw;
+  border-radius: 1vw;
+}
+.service-content p {
+  font-size: 1.3vw;
+  width: 50%;
+}
+
+.service-card-items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2vw;
+  width: 100%;
+}
+
+.service-card {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border: 2px solid gray;
+  border-radius: 3vw;
+  padding: 3vw;
+  padding-bottom: 2vw;
+  background-color: rgb(243, 243, 243);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.service-card h1 {
+  margin-bottom: 6vw;
+  width: 100%;
+  background-color: rgb(185, 255, 102);
+  padding: 0.3vw 0.9vw;
+  padding-right: 0;
+  border-radius: 0.7vw;
+}
+.service-card div span {
+  text-align: center;
+}
+.service-card img {
+  width: 50%;
+}
+.learn-more {
+  margin-right: 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+}
+.learn-more img {
+  width: 3vw;
+}
+.service-card-color {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border: 2px solid gray;
+  border-radius: 3vw;
+  padding: 3vw;
+  padding-bottom: 2vw;
+  background-color: rgb(185, 255, 102);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.service-card-color h1 {
+  margin-bottom: 6vw;
+  width: 100%;
+  background-color: rgb(243, 243, 243);
+  padding: 0.3vw 0.9vw;
+  padding-right: 0;
+  border-radius: 0.7vw;
+}
+.service-card-color div span {
+  text-align: center;
+}
+.service-card-color img {
+  width: 50%;
+}
+.learn-more {
+  margin-right: 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+}
+.learn-more img {
+  width: 3vw;
+}
+.bg-color {
+  background-color: rgb(25, 26, 35);
+  color: rgb(185, 255, 102);
+}
+.bg-color h1 {
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+}
+/* end services-section style */
+
+/* start advertise-section style */
+
+.advertise-section {
+  background-color: rgb(243, 243, 243);
+  border-radius: 2vw;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6.5vw;
+  padding: 0vw 5vw;
+}
+.advertise-content-section h1 {
+  font-size: 2vw;
+  margin-bottom: 2vw;
+}
+.advertise-content-section p {
+  font-size: 1.3vw;
+  margin-bottom: 2vw;
+  width: 70%;
+}
+
+.advertise-image-section {
+  width: 40%;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+}
+/* end advertise-section style */
+
+/* start case-studies-section style */
+.case-studies-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+  margin-top: 5vw;
+}
+.case-studies-content {
+  background-color: rgb(25, 26, 35);
+  border-radius: 2.5vw;
+  padding: 3.5vw;
+  height: 18vw;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.case-studies-content h1 {
+  font-size: 1.3vw;
+  color: #fff;
+  margin-bottom: 2vw;
+}
+.case-studies-content span {
+  color: rgb(185, 255, 102);
+}
+/* end case-studies-section style */
+
+/* start footer-content style */
+.footer-content {
+  width: 100%;
+  /* height: 20vw; */
+  background-color: rgb(25, 26, 35);
+  border-radius: 3vw 3vw 0 0;
+  margin-top: 5vw;
+  padding: 4vw;
+}
+
+.footer-content-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-text-section {
+  /* display: inline-block; */
+  color: #ffffff;
+}
+.footer-text-section h3 {
+  background-color: rgb(185, 255, 102);
+  width: 40%;
+  text-align: center;
+  color: rgb(25, 26, 35);
+  padding: 0.2vw;
+  border-radius: 0.3vw;
+  margin-bottom: 2vw;
+}
+.footer-text-section p {
+  margin-bottom: 2vw;
+}
+
+.footer-form-section {
+  padding: 4vw;
+  background-color: rgb(41, 42, 50);
+  border-radius: 2vw;
+}
+.footer-form-section input {
+  padding: 1.5vw;
+  border-radius: 1vw;
+  border: none;
+  background-color: rgb(25, 26, 35);
+  font-size: 1.2vw;
+  margin-right: 1vw;
+}
+.footer-form-section button {
+  padding: 1.5vw;
+  border-radius: 1vw;
+  border: none;
+  background-color: rgb(185, 255, 102);
+  color: rgb(25, 26, 35);
+  cursor: pointer;
+}
+.footer-bottom-section {
+  display: flex;
+  gap: 1vw;
+  color: #ffffff;
+  margin-top: 1vw;
+}
+/* end footer-content style */
