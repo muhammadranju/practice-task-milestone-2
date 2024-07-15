@@ -60,12 +60,12 @@ nav li {
 
 nav li a {
   text-decoration: none;
-  font-size: 1.5vw;
+  font-size: 1.2rem;
   color: #000;
   font-weight: 400;
 }
 nav li button {
-  padding: 1vw 1.5vw 1vw 1.5vw;
+  padding: 1rem 1.5rem 1rem 1.5rem;
   border: 1px solid black;
   border-radius: 0.8vw;
   font-size: 1.6vw;
@@ -74,9 +74,9 @@ nav li button {
   background-color: #fff;
 }
 .menu-icon {
-  width: 6vw;
+  width: 6rem;
   display: none;
-  margin-right: 2vw;
+  margin-right: 2rem;
 }
 /* end header style */
 
@@ -84,20 +84,21 @@ nav li button {
 
 .hero-section {
   display: flex;
-  margin-top: 5vw;
+  margin-top: 5rem;
   width: 100%;
-  gap: 4vw;
+  gap: 4rem;
 }
 
 .hero-text-section {
   width: 50%;
 }
 .hero-text-section h1 {
-  font-size: 3vw;
-  margin-bottom: 3vw;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  width: 30rem;
 }
 .hero-text-section p {
-  font-size: 1.5vw;
+  font-size: 1.2rem;
   width: 80%;
   margin-bottom: 3vw;
 }
@@ -113,7 +114,7 @@ nav li button {
 /* start services-section style */
 
 .services-section {
-  margin-top: 1vw;
+  margin-top: 1rem;
   width: 100%;
 }
 .logotype {

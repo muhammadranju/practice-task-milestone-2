@@ -12,6 +12,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
 
 /* Global Styles */
 
@@ -36,6 +42,7 @@
   font-weight: 600;
   border-radius: 8px;
   background: rgb(255, 144, 14);
+  cursor: pointer;
 }
 
 /* shared styles */
@@ -57,7 +64,7 @@
 .banner {
   max-width: 1440px;
   margin: 0 auto;
-  padding-top: 50px;
+  padding-top: 30px;
 }
 .nav-logo {
   font-size: 2.3rem;
@@ -72,6 +79,12 @@
   text-decoration: none;
   font-size: 1.2rem;
   color: rgb(66, 66, 66);
+}
+
+.menu a:hover {
+  color: rgb(255, 144, 14);
+  transition: all 0.3s ease;
+  border-bottom: 2px solid rgb(255, 144, 14);
 }
 .menu-icon {
   display: none;
