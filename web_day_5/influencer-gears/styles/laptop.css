@@ -1,0 +1,17 @@
+@media screen and (min-width: 992px) and (max-width: 1366px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .hero-section {
+    padding: 0 10px;
+  }
+
+  .sponsors-img-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+  }
+}
