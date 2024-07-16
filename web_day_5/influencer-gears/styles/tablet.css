@@ -58,6 +58,9 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
   }
+  .product-cards img {
+    width: 100%;
+  }
 
   .see-more {
     margin-top: 50px;

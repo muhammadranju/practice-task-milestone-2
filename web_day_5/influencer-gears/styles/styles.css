@@ -165,6 +165,8 @@ a {
   padding: 15px;
 }
 .product-cards img {
+  width: 100%;
+  object-fit: cover;
 }
 .product-cards h4 {
   font-size: 1.2rem;
